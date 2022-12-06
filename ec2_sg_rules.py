@@ -3,8 +3,6 @@
 # Purpose:      Generate rule report of all the security groups                                                      #
 # Input Params: None                                                                                                 #
 # Usage:        ./ec2_sg_rules.py  > account-date.csv   [python ./ec2_sg_rules.py > agill-dev-2018-04-11.csv ]       #
-# Author:       Abdul M. Gill                                                                                        #
-# Doc. Ref:     http://boto3.readthedocs.io/en/latest/reference/services/ec2.html#EC2.Client.describe_security_groups#
 ######################################################################################################################
 from __future__ import print_function
 
